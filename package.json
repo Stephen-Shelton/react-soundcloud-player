@@ -1,0 +1,21 @@
+{
+  "name": "soundcloud-mvp",
+  "version": "0.0.0",
+  "description": "basic music player using soundcloud api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "bootstrap-loader": "^1.0.10",
+    "css-loader": "^0.23.1",
+    "express": "4.13.4",
+    "jquery": "^2.2.3",
+    "react": "0.14.8",
+    "react-dom": "0.14.8",
+    "underscore": "1.8.3",
+    "soundcloud": "3.1.0"
+  }
+}
